@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Nav = () => {
   return (
-    <div class="navbar bg-primary text-secondary">
+    <div class="navbar bg-primary text-secondary top-0 z-10">
       <div class="navbar-start">
         <div class="dropdown">
           <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -35,10 +35,18 @@ const Nav = () => {
               </NavLink>
             </li>
             <li>
-              <a>CONTACT</a>
+              <NavLink to={"/contact"} className="">
+                CONTACT
+              </NavLink>
             </li>
             <li>
-              <a class="btn btn-secondary btn-outline">RESUME</a>
+              <a
+                class="btn btn-secondary btn-outline"
+                href="https://drive.google.com/file/d/18TK1CHdyelNNKBbHf17Pe6_-dkvclVFz/view?usp=sharing"
+                target="_blank"
+              >
+                RESUME
+              </a>{" "}
             </li>
           </ul>
         </div>
@@ -54,10 +62,18 @@ const Nav = () => {
             </NavLink>
           </li>
           <li>
-            <a>CONTACT</a>
+            <NavLink to={"/contact"} className="">
+              CONTACT
+            </NavLink>
           </li>
           <li>
-            <a class="btn btn-secondary btn-outline">RESUME</a>
+            <a
+              class="btn btn-secondary btn-outline"
+              href="https://drive.google.com/file/d/18TK1CHdyelNNKBbHf17Pe6_-dkvclVFz/view?usp=sharing"
+              target="_blank"
+            >
+              RESUME
+            </a>
           </li>
         </ul>
       </div>
