@@ -1,8 +1,17 @@
 import React from "react";
+import b1 from "../../Assets/bg/banner.png";
+import Nav from "./Nav";
+import b2 from "../../Assets/bg/c.png";
 
 const Banner = () => {
   return (
-    <div class="h-[100vh] bg-primary text-white">
+    <div
+      class="h-[100vh] text-white"
+      style={{
+        background: `url(${b1})`,
+        backgroundSize: "cover",
+      }}
+    >
       <div class="flex items-center justify-around pt-24">
         <div className="">
           <p class="py-6">Hi, Welcome to My Portfolio</p>
@@ -16,8 +25,8 @@ const Banner = () => {
         </div>
         <div className="">
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpxaxJGA9gk9ug0hGzgaaHWvtUwQw9p_y9Cg&usqp=CAU"
-            class=" rounded-lg shadow-2xl"
+            src={b2}
+            class=" rounded-lg shadow-2xl h-96 w-96 mask mask-hexagon"
           />
         </div>
       </div>

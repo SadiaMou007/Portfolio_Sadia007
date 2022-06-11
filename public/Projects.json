@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "TOOLS STORE",
+    "technologies": ["ReactJS", "NodeJS", "Tailwind", "DaisyUI", "Firebase"],
+    "img": "https://i.ibb.co/Xt7fbPz/p1.png"
+  },
+  {
+    "id": 2,
+    "name": "CAR MANAGER",
+    "technologies": ["ReactJS", "NodeJS", "Bootstrap", "Firebase"],
+    "img": "https://i.ibb.co/HGhBGMx/p2.png"
+  },
+  {
+    "id": 3,
+    "name": "TOUR GUIDE",
+    "technologies": ["ReactJS", "Bootstrap", "Firebase"],
+    "img": "https://i.ibb.co/m5TSSyN/p3.png"
+  }
+]
