@@ -16,7 +16,7 @@ const Ptojects = () => {
         <div className="my-4">
           <div className="grid lg:grid-cols-3 md:grid-cols-md-2 gap-6">
             <div
-              className="p-4 tooltip tooltip-open tooltip-primary shadow-md border-4 hover:shadow-lg"
+              className="p-6 tooltip tooltip-open tooltip-primary shadow-sm border-2 border-gray-50 hover:shadow-lg rounded-md"
               data-tip="1"
             >
               <img src={i1} alt="" className="" />
@@ -43,24 +43,35 @@ const Ptojects = () => {
                   Firebase
                 </h2>
               </h1>
-              <div className="flex justify-center my-3">
+              <div className="my-6">
+                {" "}
                 <a
-                  className="btn btn-primary btn-outline mx-2 px-12"
+                  className="btn btn-success btn-outline mx-2 px-12 w-full"
                   href="https://tools-store-96ff9.web.app/"
                   target="_blank"
                 >
                   Live
                 </a>
-
-                <Link to={"/detail1/"}>
-                  <button className="btn btn-primary btn-outline mx-2 px-12">
-                    Details
-                  </button>
-                </Link>
+              </div>
+              <div className="flex justify-center my-3">
+                <a
+                  className="btn btn-primary btn-outline mx-2 px-12"
+                  href="https://github.com/SadiaMou007/tools_store_client"
+                  target="_blank"
+                >
+                  Client
+                </a>
+                <a
+                  className="btn btn-primary btn-outline mx-2 px-12"
+                  href="https://github.com/SadiaMou007/tools_store_client"
+                  target="_blank"
+                >
+                  Server
+                </a>
               </div>
             </div>
             <div
-              className="p-4  tooltip tooltip-open tooltip-primary shadow-md border-4 hover:shadow-lg rounded-md"
+              className="p-6 tooltip tooltip-open tooltip-primary shadow-sm border-2 border-gray-50 hover:shadow-lg rounded-md"
               data-tip="2"
             >
               <img src={i2} alt="" className="" />
@@ -85,15 +96,31 @@ const Ptojects = () => {
                   Firebase
                 </h2>
               </h1>
-              <div className="flex justify-center my-3">
-                <button className="btn btn-primary btn-outline mx-2 px-12">
+              <div className="my-6">
+                {" "}
+                <a
+                  className="btn btn-success btn-outline mx-2 px-12 w-full "
+                  href="https://car-manager-9a097.web.app/"
+                  target="_blank"
+                >
                   Live
-                </button>
-                <Link to={"/detail2"}>
-                  <button className="btn btn-primary btn-outline mx-2 px-12">
-                    Details
-                  </button>
-                </Link>
+                </a>
+              </div>
+              <div className="flex justify-center my-3">
+                <a
+                  className="btn btn-primary btn-outline mx-2 px-12"
+                  href="https://github.com/SadiaMou007/car_manager_client"
+                  target="_blank"
+                >
+                  Client
+                </a>
+                <a
+                  className="btn btn-primary btn-outline mx-2 px-12"
+                  href="https://github.com/SadiaMou007/car_manager-server"
+                  target="_blank"
+                >
+                  Server
+                </a>
               </div>
             </div>
             <div
@@ -126,9 +153,13 @@ const Ptojects = () => {
                 </h2>
               </h1>
               <div className="flex justify-center my-3">
-                <button className="btn btn-primary btn-outline mx-2 px-12">
+                <a
+                  className="btn btn-primary btn-outline mx-2 px-12"
+                  href="https://travel-world-97d79.web.app/"
+                  target="_blank"
+                >
                   Live
-                </button>
+                </a>
                 <Link to={"/detail3"}>
                   <button className="btn btn-primary btn-outline mx-2 px-12">
                     Details
